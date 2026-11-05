@@ -1,0 +1,4 @@
+<board-workdir>/submitted/modules/video/src/optflowgf.cpp:43:10: fatal error: 'modules/video/src/precomp.hpp' file not found
+   43 | #include "modules/video/src/precomp.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.

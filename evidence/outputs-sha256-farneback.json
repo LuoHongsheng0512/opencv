@@ -1,0 +1,54 @@
+{
+  "farneback-perf.o": {
+    "sha256": "6dfee039fd25efe83402bbd2cf58d012c07220f0892ee9caef3ed20382cac088",
+    "size": 239984
+  },
+  "farneback-rvv-default-baseline.bin": {
+    "sha256": "ecb7cc8663658a9aa3a65356e5714574bfe181727ab431dbed768e065ecdafbf",
+    "size": 4070016
+  },
+  "farneback-rvv-default-baseline.o": {
+    "sha256": "1a2719e015ccb5814c11982fa412c594125e1e3ea2b6a14a82804b90edbaf427",
+    "size": 86664
+  },
+  "farneback-rvv-default-candidate.bin": {
+    "sha256": "85f9f8f90202ed880ac5ba6b587a54a158d8d20b2e581fa44aca0b6bf55e6e5b",
+    "size": 4070016
+  },
+  "farneback-rvv-default-candidate.o": {
+    "sha256": "f79b26ab4b122ffe4921f99444b08df04e86f1513f57faf5f1c0807f89dafce2",
+    "size": 87528
+  },
+  "farneback-rvv-strict-baseline.bin": {
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a",
+    "size": 4070016
+  },
+  "farneback-rvv-strict-baseline.o": {
+    "sha256": "3b647f85652f0cdf78e7c6c36f6ec6ec660d53bf5254dd0b828e12cdf62b598f",
+    "size": 86760
+  },
+  "farneback-rvv-strict-candidate.bin": {
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a",
+    "size": 4070016
+  },
+  "farneback-rvv-strict-candidate.o": {
+    "sha256": "b04faa165e364cc6a09e06df5ce811930eb509d4aaf08323d1f0922d02a8d743",
+    "size": 87632
+  },
+  "farneback-scalar-baseline.bin": {
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a",
+    "size": 4070016
+  },
+  "farneback-scalar-baseline.o": {
+    "sha256": "fd743e7b1325bb24b2c4f1cfd26c3d9017b3869a2cbebafc714e36e9ab6da6e4",
+    "size": 79976
+  },
+  "farneback-scalar-candidate.bin": {
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a",
+    "size": 4070016
+  },
+  "farneback-scalar-candidate.o": {
+    "sha256": "b42bf1fe0c55180d870340de3c4cf26d0f564cd8e174bbfb868cabadc162316c",
+    "size": 79984
+  }
+}

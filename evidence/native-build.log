@@ -1,0 +1,16 @@
+[1/16] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.cpp.obj
+[2/16] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.cpp.obj
+[3/16] Linking CXX shared library bin\libopencv_imgproc510.dll
+[4/16] Linking CXX shared library bin\libopencv_imgcodecs510.dll
+[5/16] Linking CXX shared library bin\libopencv_videoio510.dll
+[6/16] Linking CXX shared library bin\libopencv_highgui510.dll
+[7/16] Building CXX object modules/features/CMakeFiles/opencv_features.dir/src/orb.cpp.obj
+[8/16] Linking CXX executable bin\opencv_perf_imgproc.exe
+[9/16] Linking CXX executable bin\opencv_test_imgproc.exe
+[10/16] Linking CXX shared library bin\libopencv_features510.dll
+[11/16] Linking CXX executable bin\opencv_perf_features.exe
+[12/16] Linking CXX executable bin\opencv_test_features.exe
+[13/16] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.obj
+[14/16] Linking CXX shared library bin\libopencv_video510.dll
+[15/16] Linking CXX executable bin\opencv_test_video.exe
+[16/16] Linking CXX executable bin\opencv_perf_video.exe

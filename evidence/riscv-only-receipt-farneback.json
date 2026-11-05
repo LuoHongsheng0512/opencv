@@ -1,0 +1,44 @@
+{
+  "note": "Slice of the original four-direction receipt: only the Farneback entries are kept. Absolute board paths were replaced with <board-workdir>.",
+  "pass_all": true,
+  "preprocessing": [
+    {
+      "direction": "farneback",
+      "mode": "rvv-default",
+      "preprocessed_sha256": [
+        "4b7a971cd8866b03ea50f2d77e479629825463ca4c128b0a8cda4dd9d0d9074a",
+        "4b7a971cd8866b03ea50f2d77e479629825463ca4c128b0a8cda4dd9d0d9074a"
+      ],
+      "byte_identical": true,
+      "diagnostic_and_scalar_initializer_normalized": false,
+      "passed": true
+    },
+    {
+      "direction": "farneback",
+      "mode": "rvv-strict",
+      "preprocessed_sha256": [
+        "4b7a971cd8866b03ea50f2d77e479629825463ca4c128b0a8cda4dd9d0d9074a",
+        "4b7a971cd8866b03ea50f2d77e479629825463ca4c128b0a8cda4dd9d0d9074a"
+      ],
+      "byte_identical": true,
+      "diagnostic_and_scalar_initializer_normalized": false,
+      "passed": true
+    },
+    {
+      "direction": "farneback",
+      "mode": "scalar",
+      "preprocessed_sha256": [
+        "7c8dc5175d7401a1aace619eb751e2f538d418ccdf668123a7c65393c7438135",
+        "7c8dc5175d7401a1aace619eb751e2f538d418ccdf668123a7c65393c7438135"
+      ],
+      "byte_identical": true,
+      "diagnostic_and_scalar_initializer_normalized": false,
+      "passed": true
+    }
+  ],
+  "fresh_api_records": 26496,
+  "comparison": "Fresh outputs byte-identical to previous verified candidate outputs",
+  "sources": {
+    "modules/video/src/optflowgf.cpp": "5ea162e3a422d20e5d59be792e8976935c80a7c639b98a5b86d5b3fe34a947fb"
+  }
+}

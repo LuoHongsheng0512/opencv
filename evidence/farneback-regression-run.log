@@ -1,0 +1,10 @@
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Video_Farneback
+[ RUN      ] Video_Farneback.gaussianTranslatedRoi
+[       OK ] Video_Farneback.gaussianTranslatedRoi (931 ms)
+[----------] 1 test from Video_Farneback (931 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (931 ms total)
+[  PASSED  ] 1 test.

@@ -1,0 +1,11 @@
+path,a,b,c,d,ns_per_call,iterations
+farneback,63,15,0,3,20324402,1
+farneback,63,15,256,3,47841076,1
+farneback,64,15,0,3,26038377,1
+farneback,64,15,256,3,59433699,1
+farneback,65,15,0,3,26594561,1
+farneback,65,15,256,3,60503316,1
+farneback,320,15,0,3,134727406,1
+farneback,320,15,256,3,376742545,1
+farneback,640,15,0,3,268459488,1
+farneback,640,15,256,3,778122757,1

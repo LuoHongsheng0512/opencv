@@ -1,0 +1,50 @@
+[ERROR:0@0.002] global persistence.cpp:586 open Can't open file: 'video.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 5.1.0-dev
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: C:/Strawberry/c/bin/c++.exe  (ver 13.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: pthreads (nthreads=1)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX_VNNI *AVX512-SKX?
+Note: Google Test filter = *FarnebackGaussianSIMD*
+[==========] Running 10 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 10 tests from FarnebackGaussianSIMD_gaussianAndBoxControl
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/0, where GetParam() = (63, 0)
+[ PERFSTAT ]    (samples=10   mean=4.68   median=4.82   min=3.89   stddev=0.51 (10.8%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/0 (48 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/1, where GetParam() = (63, 256)
+[ PERFSTAT ]    (samples=10   mean=5.53   median=5.66   min=4.58   stddev=0.54 (9.8%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/1 (56 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/2, where GetParam() = (64, 0)
+[ PERFSTAT ]    (samples=10   mean=6.15   median=6.13   min=5.56   stddev=0.34 (5.4%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/2 (62 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/3, where GetParam() = (64, 256)
+[ PERFSTAT ]    (samples=10   mean=7.41   median=7.39   min=6.57   stddev=0.70 (9.4%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/3 (74 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/4, where GetParam() = (65, 0)
+[ PERFSTAT ]    (samples=10   mean=6.39   median=6.16   min=5.50   stddev=0.68 (10.7%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/4 (65 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/5, where GetParam() = (65, 256)
+[ PERFSTAT ]    (samples=10   mean=7.69   median=7.94   min=6.53   stddev=0.55 (7.1%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/5 (77 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/6, where GetParam() = (320, 0)
+[ PERFSTAT ]    (samples=10   mean=32.07   median=32.22   min=29.25   stddev=1.82 (5.7%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/6 (322 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/7, where GetParam() = (320, 256)
+[ PERFSTAT ]    (samples=10   mean=37.39   median=37.10   min=34.75   stddev=2.06 (5.5%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/7 (375 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/8, where GetParam() = (640, 0)
+[ PERFSTAT ]    (samples=5   mean=61.02   median=61.37   min=59.69   stddev=1.05 (1.7%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/8 (307 ms)
+[ RUN      ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/9, where GetParam() = (640, 256)
+[ PERFSTAT ]    (samples=5   mean=72.59   median=72.90   min=70.22   stddev=1.64 (2.3%))
+[       OK ] FarnebackGaussianSIMD_gaussianAndBoxControl.gaussianAndBoxControl/9 (364 ms)
+[----------] 10 tests from FarnebackGaussianSIMD_gaussianAndBoxControl (1751 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test case ran. (1751 ms total)
+[  PASSED  ] 10 tests.

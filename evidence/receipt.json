@@ -1,0 +1,43 @@
+{
+  "pass_all": true,
+  "base_commit": "f1c1be300d10b39834fd307f23e5c2d020313a31",
+  "supporting_library_commit": "1e21d6ed7d44c4f7ae9efd4acf302d6cbdf32bff",
+  "compiler": "Ubuntu clang version 17.0.2 (1~exp1ubuntu2.1-bb1 56277be0dfab53becb87b035a858df5a10632457)\nTarget: riscv64-unknown-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n",
+  "architecture": "riscv64",
+  "affinity": [
+    2
+  ],
+  "final": {
+    "time": "2026-10-24T18:53:30.043480+08:00",
+    "temperature_mC": {
+      "/sys/class/thermal/thermal_zone0/temp": "35000",
+      "/sys/class/thermal/thermal_zone1/temp": "34000"
+    },
+    "frequency_kHz": {
+      "/sys/devices/system/cpu/cpufreq/policy4/scaling_cur_freq": "1600000",
+      "/sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq": "1600000"
+    },
+    "free_bytes": 1566650368
+  },
+  "commands": 160,
+  "sources": {
+    "integration/modules/imgproc/src/samplers.cpp": "5cf4eedc395647ad7ddc5db9258a26c695d1c5ebcbaf72f6772f745d23bf8379",
+    "integration/modules/imgproc/src/histogram.cpp": "e6ff9b29c37774f3ad228a52bc02d2893b5c6a49132204036dfd6fb1bfd14bdd",
+    "integration/modules/features/src/orb.cpp": "1714ce04eb17aee22d1b80dcb8fdd6d6a3d6f5b489aa8d3520440de428b32acc",
+    "integration/modules/video/src/optflowgf.cpp": "49f5cb2fd917ce0cacf2da37a3255603a1044f828e11e33a08a6508d4304c770"
+  },
+  "unmodified_support_sources": {
+    "validation/support/equalize_hist.dispatch.cpp": "d84a3eb2bf906360712e163caef85e4a7c02d757780e1bb282c92fd2b46eee9b"
+  },
+  "libraries": {
+    "libopencv_imgcodecs.so.5.1.0": "97666d992c9fa62d622bc5f89b82da534c6344eb17e4244d87c8a1a184244de0",
+    "libopencv_geometry.so.5.1.0": "3f83625d228afe81d59acfa34a16a8356b20249dfc0ff00cfa5040864e143017",
+    "libopencv_imgproc.so.5.1.0": "7fa5498067a1f23d6c50c2efd849d97d253ec6b60bd0b0f70c3578eebb0bda0e",
+    "libopencv_features.so.5.1.0": "7020af4988be82285ad7515c95ab01316ff0d8d5fee51b5d0995a6d39a877b96",
+    "libopencv_core.so.5.1.0": "d0ffbaadfa41bf3be0e6cdf16679cf9c46b9a9f071271b611248c9a1deacca10",
+    "libopencv_flann.so.5.1.0": "1f8fed408d7a156df3b63f6ec8fddc5e8a28a22ad48be2039e05938c47d7fc3a",
+    "libopencv_highgui.so.5.1.0": "beabf5673e364707931b36ba33fcb97e69ff83d568c8cefccb703a8f272fe843",
+    "libopencv_videoio.so.5.1.0": "cf0300e45d8b6879f86c5bab9493fa13a44ad7960acc22ad333b5503456c2a06"
+  },
+  "ldd": "\tlinux-vdso.so.1 (0x0000003fbcfc0000)\n\tlibopencv_features.so.501 => <board-workdir>/baseline/lib/libopencv_features.so.501 (0x0000003fbcf44000)\n\tlibopencv_imgproc.so.501 => <board-workdir>/baseline/lib/libopencv_imgproc.so.501 (0x0000003fbcbdd000)\n\tlibopencv_flann.so.501 => <board-workdir>/baseline/lib/libopencv_flann.so.501 (0x0000003fbcb82000)\n\tlibopencv_geometry.so.501 => <board-workdir>/baseline/lib/libopencv_geometry.so.501 (0x0000003fbca58000)\n\tlibopencv_core.so.501 => <board-workdir>/baseline/lib/libopencv_core.so.501 (0x0000003fbc6f0000)\n\tlibstdc++.so.6 => /lib/riscv64-linux-gnu/libstdc++.so.6 (0x0000003fbc4c0000)\n\tlibm.so.6 => /lib/riscv64-linux-gnu/libm.so.6 (0x0000003fbc447000)\n\tlibgcc_s.so.1 => /lib/riscv64-linux-gnu/libgcc_s.so.1 (0x0000003fbc42d000)\n\tlibc.so.6 => /lib/riscv64-linux-gnu/libc.so.6 (0x0000003fbc2cb000)\n\t/lib/ld-linux-riscv64-lp64d.so.1 (0x0000003fbcfc2000)\n\tlibz.so.1 => /lib/riscv64-linux-gnu/libz.so.1 (0x0000003fbc2b0000)\n"
+}
