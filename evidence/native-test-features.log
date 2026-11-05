@@ -1,0 +1,27 @@
+CTEST_FULL_OUTPUT
+OpenCV version: 5.1.0-dev
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: C:/Strawberry/c/bin/c++.exe  (ver 13.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: pthreads (nthreads=32)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX_VNNI *AVX512-SKX?
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = Features2D_ORB.orientationCircularMoments:Features2D_ORB.crash_5031:Features2D_ORB.regression_16197:Features2D_ORB.invalidCreateParameters
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from Features2D_ORB
+[ RUN      ] Features2D_ORB.orientationCircularMoments
+[       OK ] Features2D_ORB.orientationCircularMoments (8 ms)
+[ RUN      ] Features2D_ORB.crash_5031
+[       OK ] Features2D_ORB.crash_5031 (7 ms)
+[ RUN      ] Features2D_ORB.regression_16197
+[       OK ] Features2D_ORB.regression_16197 (0 ms)
+[ RUN      ] Features2D_ORB.invalidCreateParameters
+[       OK ] Features2D_ORB.invalidCreateParameters (0 ms)
+[----------] 4 tests from Features2D_ORB (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (18 ms total)
+[  PASSED  ] 4 tests.

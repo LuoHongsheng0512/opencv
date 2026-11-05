@@ -1,0 +1,17 @@
+path,a,b,c,d,ns_per_call,iterations
+detectAndCompute,7,1,2,500,27862480,1
+detectAndCompute,7,1,2,2000,48557812,1
+detectAndCompute,7,8,2,500,65140513,1
+detectAndCompute,7,8,2,2000,85918348,1
+detectAndCompute,15,1,2,500,27128331,1
+detectAndCompute,15,1,2,2000,48645357,1
+detectAndCompute,15,8,2,500,67845808,1
+detectAndCompute,15,8,2,2000,87278766,1
+detectAndCompute,31,1,2,500,27875480,1
+detectAndCompute,31,1,2,2000,51646870,1
+detectAndCompute,31,8,2,500,65730115,1
+detectAndCompute,31,8,2,2000,84381715,1
+detectAndCompute,65,1,2,500,29955130,1
+detectAndCompute,65,1,2,2000,50715715,1
+detectAndCompute,65,8,2,500,64438573,1
+detectAndCompute,65,8,2,2000,77417032,1

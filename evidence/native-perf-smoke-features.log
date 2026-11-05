@@ -1,0 +1,44 @@
+[ERROR:0@0.002] global persistence.cpp:586 open Can't open file: 'features2d.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 5.1.0-dev
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: C:/Strawberry/c/bin/c++.exe  (ver 13.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: pthreads (nthreads=1)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX_VNNI *AVX512-SKX?
+Note: Google Test filter = *ORBOrientationRVV*
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from ORBOrientationRVV_detectAndCompute
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/0, where GetParam() = (7, 500)
+[ PERFSTAT ]    (samples=5   mean=22.54   median=22.55   min=22.27   stddev=0.22 (1.0%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/0 (113 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/1, where GetParam() = (7, 2000)
+[ PERFSTAT ]    (samples=5   mean=26.93   median=26.87   min=26.68   stddev=0.29 (1.1%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/1 (136 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/2, where GetParam() = (15, 500)
+[ PERFSTAT ]    (samples=6   mean=22.92   median=22.71   min=22.36   stddev=0.62 (2.7%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/2 (138 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/3, where GetParam() = (15, 2000)
+[ PERFSTAT ]    (samples=5   mean=27.11   median=27.20   min=26.52   stddev=0.50 (1.8%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/3 (136 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/4, where GetParam() = (31, 500)
+[ PERFSTAT ]    (samples=5   mean=22.79   median=22.84   min=22.33   stddev=0.39 (1.7%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/4 (116 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/5, where GetParam() = (31, 2000)
+[ PERFSTAT ]    (samples=9   mean=27.50   median=27.28   min=26.83   stddev=0.79 (2.9%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/5 (248 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/6, where GetParam() = (65, 500)
+[ PERFSTAT ]    (samples=5   mean=23.47   median=23.60   min=22.81   stddev=0.40 (1.7%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/6 (118 ms)
+[ RUN      ] ORBOrientationRVV_detectAndCompute.detectAndCompute/7, where GetParam() = (65, 2000)
+[ PERFSTAT ]    (samples=10   mean=29.05   median=28.67   min=28.35   stddev=0.97 (3.3%))
+[       OK ] ORBOrientationRVV_detectAndCompute.detectAndCompute/7 (292 ms)
+[----------] 8 tests from ORBOrientationRVV_detectAndCompute (1299 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (1299 ms total)
+[  PASSED  ] 8 tests.

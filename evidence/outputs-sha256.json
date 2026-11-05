@@ -1,0 +1,222 @@
+{
+  "orb-rvv-strict-candidate.bin": {
+    "size": 4595172,
+    "sha256": "e740869e8000f2ec3165dc1fc9a30d79e6641c404995f0402dece76e2803ba4a"
+  },
+  "orb-scalar-candidate.bin": {
+    "size": 4595172,
+    "sha256": "e740869e8000f2ec3165dc1fc9a30d79e6641c404995f0402dece76e2803ba4a"
+  },
+  "orb-rvv-default-baseline.bin": {
+    "size": 4595172,
+    "sha256": "831b456e53de4a830b0c765d8b004cc5110ce2a5bf56b984722fac3510832acc"
+  },
+  "farneback-rvv-strict-baseline.bin": {
+    "size": 4070016,
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a"
+  },
+  "backprojection-scalar-baseline.o": {
+    "size": 246992,
+    "sha256": "132676a9d9b0eefdd50796e3bd845ca6fd1236bd2c8285cea6a1d7cf72a887fb"
+  },
+  "orb-rvv-default-baseline.o": {
+    "size": 147776,
+    "sha256": "4741ad4d45fa48b94979991505f98373ed153998a956e5c3fa3a6e7905c68dfc"
+  },
+  "backprojection-perf.o": {
+    "size": 228128,
+    "sha256": "4b4391a533971ef87c2bc5370ac3ed5f415103c12e8e22daa6a80af047a25e96"
+  },
+  "sampling-rvv-default-candidate.bin": {
+    "size": 12960000,
+    "sha256": "e3c9cd1c37aae6b3e2285d4f44cb145fe36d3f87aba42d14dc63bde34e0e7df8"
+  },
+  "sampling-rvv-strict-baseline.bin": {
+    "size": 12960000,
+    "sha256": "d5097a2dde8a9ab283c808d27e504da55d0b8bc28366c2b1040cc68908b47998"
+  },
+  "backprojection-rvv-default-baseline.o": {
+    "size": 274768,
+    "sha256": "7ed9fdd9239257d8769f469550d55aa2626b587cf5c4a91fc89bb5b7cdb8b451"
+  },
+  "farneback-rvv-strict-baseline.o": {
+    "size": 86760,
+    "sha256": "3b647f85652f0cdf78e7c6c36f6ec6ec660d53bf5254dd0b828e12cdf62b598f"
+  },
+  "backprojection-rvv-default-baseline.bin": {
+    "size": 1106304,
+    "sha256": "acf6594fabcb92cb8131261016fc6738e28a7022348ca4b5d727d608642c3634"
+  },
+  "orb-rvv-default-candidate.o": {
+    "size": 151304,
+    "sha256": "059c036e5456d086c423558ce0b2005fdb8656baccfcd851b4963766994399ad"
+  },
+  "sampling-scalar-baseline.o": {
+    "size": 36896,
+    "sha256": "409b55e3191f3de8e01795d401d7922e094b29a52b5f3ba1d5daf465c079a703"
+  },
+  "orb-scalar-baseline.o": {
+    "size": 144280,
+    "sha256": "217dc4413be43e9d3df9488c70f67ac6608e95a457ad521ba8c98bd1a2784c1b"
+  },
+  "farneback-rvv-strict-candidate.bin": {
+    "size": 4070016,
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a"
+  },
+  "backprojection-rvv-strict-baseline.o": {
+    "size": 274184,
+    "sha256": "ca0ea5b1b3204dab068bb5254de63bb7855e0c37857a7df3276d5c2b38c751f2"
+  },
+  "farneback-rvv-default-candidate.bin": {
+    "size": 4070016,
+    "sha256": "85f9f8f90202ed880ac5ba6b587a54a158d8d20b2e581fa44aca0b6bf55e6e5b"
+  },
+  "farneback-scalar-candidate.o": {
+    "size": 79984,
+    "sha256": "b42bf1fe0c55180d870340de3c4cf26d0f564cd8e174bbfb868cabadc162316c"
+  },
+  "orb-rvv-strict-candidate.o": {
+    "size": 151480,
+    "sha256": "c77a00cc4f7db13e80c6199c24b41abb64eb05023ab4ae182cd021fd379c2e8f"
+  },
+  "backprojection-scalar-baseline.bin": {
+    "size": 1106304,
+    "sha256": "608c6aed4a41a219e330b8c58fc2d4a98404259f291c419e5d2d1be4dd9eeb67"
+  },
+  "sampling-perf.o": {
+    "size": 228216,
+    "sha256": "41ec4e9038bb76ad04fd90c5c6b61c7938cdd787ad30acecaf0433def3197b5c"
+  },
+  "sampling-rvv-default-baseline.o": {
+    "size": 48136,
+    "sha256": "462db6acc6fb181554583b64ab04318f32904a8f26e394e5b9834a5566cf712a"
+  },
+  "farneback-scalar-baseline.o": {
+    "size": 79976,
+    "sha256": "fd743e7b1325bb24b2c4f1cfd26c3d9017b3869a2cbebafc714e36e9ab6da6e4"
+  },
+  "sampling-scalar-baseline.bin": {
+    "size": 12960000,
+    "sha256": "d5097a2dde8a9ab283c808d27e504da55d0b8bc28366c2b1040cc68908b47998"
+  },
+  "sampling-rvv-strict-baseline.o": {
+    "size": 48384,
+    "sha256": "76e6c96b4e0a57b63552e998bbee18a8e49ed21e9c34c23f2115ef3cac837675"
+  },
+  "backprojection-rvv-default-equalize-support.o": {
+    "size": 6848,
+    "sha256": "b7ec96dddbb94ea130ab99da64364e28c8ab03f9a12b62b25169d4f30398c91a"
+  },
+  "sampling-rvv-strict-candidate.bin": {
+    "size": 12960000,
+    "sha256": "f7d8eb4db9383a1198b00f6023d9ed1f33ddf2bbf6cd1845a8cae33d6c74ef0c"
+  },
+  "farneback-rvv-default-baseline.o": {
+    "size": 86664,
+    "sha256": "1a2719e015ccb5814c11982fa412c594125e1e3ea2b6a14a82804b90edbaf427"
+  },
+  "sampling-scalar-candidate.bin": {
+    "size": 12960000,
+    "sha256": "d5097a2dde8a9ab283c808d27e504da55d0b8bc28366c2b1040cc68908b47998"
+  },
+  "sampling-scalar-candidate.o": {
+    "size": 36896,
+    "sha256": "5900d2fb0f0981aa6a630b8dd9971b7b127d87dd1d65539b2646c506edb4f890"
+  },
+  "backprojection-rvv-strict-equalize-support.o": {
+    "size": 6848,
+    "sha256": "b7ec96dddbb94ea130ab99da64364e28c8ab03f9a12b62b25169d4f30398c91a"
+  },
+  "backprojection-rvv-strict-candidate.o": {
+    "size": 274336,
+    "sha256": "3227e331cf4ec033cf760e305e276085d9fe7dd1b0e7b87c82cd31f8f4d72a98"
+  },
+  "backprojection-rvv-strict-baseline.bin": {
+    "size": 1106304,
+    "sha256": "608c6aed4a41a219e330b8c58fc2d4a98404259f291c419e5d2d1be4dd9eeb67"
+  },
+  "sampling-rvv-default-baseline.bin": {
+    "size": 12960000,
+    "sha256": "d0e26d6160e62bc75fa80401918ec329bd4211d1ed9a8100ad613587aecc4e3e"
+  },
+  "farneback-rvv-strict-candidate.o": {
+    "size": 87632,
+    "sha256": "b04faa165e364cc6a09e06df5ce811930eb509d4aaf08323d1f0922d02a8d743"
+  },
+  "orb-scalar-baseline.bin": {
+    "size": 4595172,
+    "sha256": "e740869e8000f2ec3165dc1fc9a30d79e6641c404995f0402dece76e2803ba4a"
+  },
+  "backprojection-rvv-default-candidate.o": {
+    "size": 274912,
+    "sha256": "4566bb7d1c8f509ad3752c64602d8040003d97a484fe744da38af502ca007165"
+  },
+  "backprojection-rvv-default-candidate.bin": {
+    "size": 1106304,
+    "sha256": "acf6594fabcb92cb8131261016fc6738e28a7022348ca4b5d727d608642c3634"
+  },
+  "sampling-rvv-default-candidate.o": {
+    "size": 49328,
+    "sha256": "00f22e3d8d4060c4f1150e392b682470a596e3fde26a7bf91042494936821b77"
+  },
+  "farneback-rvv-default-baseline.bin": {
+    "size": 4070016,
+    "sha256": "ecb7cc8663658a9aa3a65356e5714574bfe181727ab431dbed768e065ecdafbf"
+  },
+  "backprojection-scalar-candidate.bin": {
+    "size": 1106304,
+    "sha256": "608c6aed4a41a219e330b8c58fc2d4a98404259f291c419e5d2d1be4dd9eeb67"
+  },
+  "orb-rvv-strict-baseline.bin": {
+    "size": 4595172,
+    "sha256": "e740869e8000f2ec3165dc1fc9a30d79e6641c404995f0402dece76e2803ba4a"
+  },
+  "backprojection-scalar-candidate.o": {
+    "size": 246992,
+    "sha256": "610365216ea3c160780f581e0961bfc88f52199632d642f329b192cb0933bbf7"
+  },
+  "farneback-scalar-baseline.bin": {
+    "size": 4070016,
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a"
+  },
+  "orb-rvv-default-candidate.bin": {
+    "size": 4595172,
+    "sha256": "831b456e53de4a830b0c765d8b004cc5110ce2a5bf56b984722fac3510832acc"
+  },
+  "orb-perf.o": {
+    "size": 235880,
+    "sha256": "e9e57a4e224004b6f2be7b89053c757d6055174bdf7bb95c74fd2573b30f8b5c"
+  },
+  "farneback-perf.o": {
+    "size": 239984,
+    "sha256": "6dfee039fd25efe83402bbd2cf58d012c07220f0892ee9caef3ed20382cac088"
+  },
+  "backprojection-scalar-equalize-support.o": {
+    "size": 6632,
+    "sha256": "e5ea640abf0bf5a6edab3073579f8a3feec195625d77a5dff0fe379a1b93a924"
+  },
+  "backprojection-rvv-strict-candidate.bin": {
+    "size": 1106304,
+    "sha256": "608c6aed4a41a219e330b8c58fc2d4a98404259f291c419e5d2d1be4dd9eeb67"
+  },
+  "orb-rvv-strict-baseline.o": {
+    "size": 147952,
+    "sha256": "0956db353d24206d638fdb1897c44c7990331d39b309060ef0478fc867c59e04"
+  },
+  "farneback-scalar-candidate.bin": {
+    "size": 4070016,
+    "sha256": "6477e394f1e6a8ccddbea809885d9065236111c8523935140ee717c9f330197a"
+  },
+  "farneback-rvv-default-candidate.o": {
+    "size": 87528,
+    "sha256": "f79b26ab4b122ffe4921f99444b08df04e86f1513f57faf5f1c0807f89dafce2"
+  },
+  "orb-scalar-candidate.o": {
+    "size": 144280,
+    "sha256": "fbf05ecee278efc5b4c74863489be71d7cbd13cb63156f3cbe08440d4157f5ca"
+  },
+  "sampling-rvv-strict-candidate.o": {
+    "size": 49576,
+    "sha256": "b0f13a440d4df52e8b22f698b99383edd95058e09e9d5c627afb497ac68d2016"
+  }
+}
